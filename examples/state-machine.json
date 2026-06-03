@@ -1,0 +1,17 @@
+{
+  "Comment": "Exemplo simples",
+  "StartAt": "Validar",
+  "States": {
+    "Validar": {
+      "Type": "Pass",
+      "Next": "Processar"
+    },
+    "Processar": {
+      "Type": "Pass",
+      "Next": "Finalizado"
+    },
+    "Finalizado": {
+      "Type": "Succeed"
+    }
+  }
+}
